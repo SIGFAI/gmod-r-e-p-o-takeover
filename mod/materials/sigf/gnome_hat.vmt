@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "sigf/gnome_hat"
+	"$model" "1"
+	"$alphatest" "1"
+}

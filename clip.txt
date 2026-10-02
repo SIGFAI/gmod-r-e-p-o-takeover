@@ -1,0 +1,6 @@
+Moments the clip must show (ticked only when seen in the preview screenshots):
+[x] 1. Yellow R.E.P.O. robots with visor faces grab priced loot ("GRAB!") and carry it to the green extraction point
+[x] 2. Shooting loot makes its price drop with red "-$" pops
+[x] 3. Tiny red-hat Gnomes get popped by the player ("GNOMED!")
+[~] 4. A big Huntsman attacks and is taken down (label and fight seen, the kill is brief and weak)
+[x] 5. Loot dropped in the zone gives "+$" cha-ching, coins burst, QUOTA REACHED

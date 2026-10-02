@@ -1,0 +1,1 @@
+Unzip the mod folder into a new folder inside garrysmod/addons, start Sandbox on any map and play. Robots, loot, the green extraction point and the Gnome and Huntsman monsters appear on their own.
