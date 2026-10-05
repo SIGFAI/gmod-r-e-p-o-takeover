@@ -1,0 +1,238 @@
+{
+  "id": "sigf/gmod-r-e-p-o-takeover",
+  "version": "1.0.0",
+  "name": "R.E.P.O. Takeover",
+  "tagline": "Bring R.E.P.O. into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "gmod",
+      "role": "host",
+      "engine": "Garry's Mod (Source, 64-bit branch) + Lua addon, Sandbox listen server",
+      "apps": {
+        "steam": "4000"
+      }
+    },
+    {
+      "game": "repo",
+      "role": "guest",
+      "label": "R.E.P.O.",
+      "canonical": false
+    }
+  ],
+  "requires": [],
+  "install": [
+    {
+      "game": "gmod",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "gmod-r-e-p-o-takeover-addon-kit.zip",
+          "dst": "{game}/garrysmod/addons/sigf_r_e_p_o_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "lua/autorun/sigf_kit.lua",
+              "sha256": "997f9cd687a37c26ae0224699ee0b189367e9ab2b232acca7c8c9829459882f7"
+            },
+            {
+              "path": "lua/sigf_kit/cl_bricks.lua",
+              "sha256": "a78651503449000a81bf348477ec9a5867452e42f1848021632798ef6c63918e"
+            },
+            {
+              "path": "lua/sigf_kit/cl_stage.lua",
+              "sha256": "b4a53055318568a93674697ad487dbd747c013c0ce20cd320f67cc6248f71f8c"
+            },
+            {
+              "path": "lua/sigf_kit/sh_bricks.lua",
+              "sha256": "29f773258c2c750a05ec6a8a72abfc58e9d59cff2fddc456750ebbcbc05d42a3"
+            },
+            {
+              "path": "lua/sigf_kit/sh_stage.lua",
+              "sha256": "04fac2c59696deddef5bb7ec8fe005f3233a09b4df5d8743a7037fdfdf701b75"
+            },
+            {
+              "path": "lua/sigf_kit/sv_bricks.lua",
+              "sha256": "ce18b8dfe3d4338580f872013bae90218b7fd023b58699bd8ef770fbf61e0c49"
+            },
+            {
+              "path": "lua/sigf_kit/sv_stage.lua",
+              "sha256": "42998cfb11d034a692e2cc58a476d0fd90717419a67c74af554e07e568e9bda0"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/gmod-r-e-p-o-takeover/releases/download/v1.0.0/gmod-r-e-p-o-takeover-addon-kit.zip",
+          "sha256": "de090fbbc1ae7562f642d8c6a97e17bcb6619407cf4b246c8dbc071b3e5dfae6",
+          "size": 18083
+        },
+        {
+          "src": "gmod-r-e-p-o-takeover.zip",
+          "dst": "{game}/garrysmod/addons/sigf_r_e_p_o_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "lua/autorun/sigf_kit.lua",
+              "sha256": "c6bedb90344897bc84147837202df8e436e5593d0758d51169270b9f22a5f678"
+            },
+            {
+              "path": "lua/sigf_kit/cl_bricks.lua",
+              "sha256": "a78651503449000a81bf348477ec9a5867452e42f1848021632798ef6c63918e"
+            },
+            {
+              "path": "lua/sigf_kit/cl_stage.lua",
+              "sha256": "b4a53055318568a93674697ad487dbd747c013c0ce20cd320f67cc6248f71f8c"
+            },
+            {
+              "path": "lua/sigf_kit/sh_bricks.lua",
+              "sha256": "29f773258c2c750a05ec6a8a72abfc58e9d59cff2fddc456750ebbcbc05d42a3"
+            },
+            {
+              "path": "lua/sigf_kit/sh_stage.lua",
+              "sha256": "04fac2c59696deddef5bb7ec8fe005f3233a09b4df5d8743a7037fdfdf701b75"
+            },
+            {
+              "path": "lua/sigf_kit/sv_bricks.lua",
+              "sha256": "ce18b8dfe3d4338580f872013bae90218b7fd023b58699bd8ef770fbf61e0c49"
+            },
+            {
+              "path": "lua/sigf_kit/sv_stage.lua",
+              "sha256": "42998cfb11d034a692e2cc58a476d0fd90717419a67c74af554e07e568e9bda0"
+            },
+            {
+              "path": "lua/sigf_mod/cl.lua",
+              "sha256": "7557127bc8290446fa7d16d0a93bf8f90430e9b9a37acb728a70d7bec2d6892d"
+            },
+            {
+              "path": "lua/sigf_mod/demo.lua",
+              "sha256": "132d70b9933951dbdf3208e0578aad24374290c3af9ccd5e3f486aae21a27a69"
+            },
+            {
+              "path": "lua/sigf_mod/sv.lua",
+              "sha256": "e0e2e1f1ebbbab51e0cb111a699f1e1b7b7d982ce17b4030139b4732a0737eb3"
+            },
+            {
+              "path": "materials/sigf/beard.vmt",
+              "sha256": "b457fcd7f3de55e9f3c4dcfc083105421c542a4345d6b1f2eec2425b978751e0"
+            },
+            {
+              "path": "materials/sigf/beard.vtf",
+              "sha256": "7d500a7c65fbf3b68c81805200c627ecc248d66749589a3767a236baedce883e"
+            },
+            {
+              "path": "materials/sigf/coin.vmt",
+              "sha256": "61b2078d28e4ba2bf9d1f2e4b63930d112d0779fb6d88f341c16014ee500ee3d"
+            },
+            {
+              "path": "materials/sigf/coin.vtf",
+              "sha256": "42396f0392a4a875f283292746517c63754e868e47a32381534940dc18878a3f"
+            },
+            {
+              "path": "materials/sigf/glow_gold.vmt",
+              "sha256": "a23d10c1a89ce61c61bad90a35af04a44887617ec302a93c0b787bf90bf56b8c"
+            },
+            {
+              "path": "materials/sigf/glow_gold.vtf",
+              "sha256": "76e24a97319489bb93f63e8f12948738abe29b31925fa06e51cf4fa95f3d278d"
+            },
+            {
+              "path": "materials/sigf/gnome_hat.vmt",
+              "sha256": "5388c4b04cc578189995b76ef3bacfe60db76110d1bdb1a1d1ab0a949f9c3f9f"
+            },
+            {
+              "path": "materials/sigf/gnome_hat.vtf",
+              "sha256": "992489e4cc0c42e14f3a3c6b4dfe81cd582316349f4910a3aa492f1108680e1d"
+            },
+            {
+              "path": "materials/sigf/gold.vmt",
+              "sha256": "c44159ad7f14ccf95d623a36bd33b06549d6c0bc614de26e2a99d9ab30d7020c"
+            },
+            {
+              "path": "materials/sigf/gold.vtf",
+              "sha256": "03120a3a226b9642c5b848cbd4b47983524e865422813f4a06a1482b4a692da8"
+            },
+            {
+              "path": "materials/sigf/robot_body.vmt",
+              "sha256": "d2ccffb7338fc06b546558ab7599e016c7d1ea542d23c6ed9dc5902e7b366d1b"
+            },
+            {
+              "path": "materials/sigf/robot_body.vtf",
+              "sha256": "508d6076f2078bacd203af208bdf005c0aae3f45ad09d17ec26b009b678552b2"
+            },
+            {
+              "path": "materials/sigf/robot_head.vmt",
+              "sha256": "532951ab996f34aab9801ae67c1649f3f3401713e38d8a25ddb814f173678707"
+            },
+            {
+              "path": "materials/sigf/robot_head.vtf",
+              "sha256": "435436c4d492247b42836363a3318b17817e137e3596896f02c008dbe4dd4ed2"
+            },
+            {
+              "path": "sound/sigf/cha_ching.wav",
+              "sha256": "af5a5e0a092f403bf78f87e37c4f8c74ff40d837385846921dc3b679b0ce1780"
+            },
+            {
+              "path": "sound/sigf/grab.wav",
+              "sha256": "139ef3a5ba673dd7dcf5cee8c9a30934e63eb257820f4af07643a4ceb9922739"
+            },
+            {
+              "path": "sound/sigf/huntsman.wav",
+              "sha256": "991fa5dfd3751d8f3236bd343b7cce56c9a3933095daacaa70276a2a35dc118b"
+            },
+            {
+              "path": "sound/sigf/quota.wav",
+              "sha256": "865eed0499da10afc1742115dc52c3abb5cb276d2fbfc2e1f719307c30d39276"
+            },
+            {
+              "path": "sound/sigf/shatter.wav",
+              "sha256": "15f1c67d02fc8a4ccfcb2038091d4e195af948b40a001c129e2b79e73639c93a"
+            },
+            {
+              "path": "sound/sigf/squeak.wav",
+              "sha256": "9bbd005ba2364c35148320bd69c15cb16286dfcbc1442aa012972f2f3b54e008"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/gmod-r-e-p-o-takeover/releases/download/v1.0.0/gmod-r-e-p-o-takeover.zip",
+          "sha256": "c72ac306a632bc88407a705ce599f21c2d8821f584e71ff1a25b5510bd4978d7",
+          "size": 492995
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "gmod",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "gmod-r-e-p-o-takeover-addon-kit.zip",
+      "url": "https://github.com/SIGFAI/gmod-r-e-p-o-takeover/releases/download/v1.0.0/gmod-r-e-p-o-takeover-addon-kit.zip",
+      "sha256": "de090fbbc1ae7562f642d8c6a97e17bcb6619407cf4b246c8dbc071b3e5dfae6",
+      "size": 18083
+    },
+    {
+      "name": "gmod-r-e-p-o-takeover.zip",
+      "url": "https://github.com/SIGFAI/gmod-r-e-p-o-takeover/releases/download/v1.0.0/gmod-r-e-p-o-takeover.zip",
+      "sha256": "c72ac306a632bc88407a705ce599f21c2d8821f584e71ff1a25b5510bd4978d7",
+      "size": 492995
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/gmod-r-e-p-o-takeover",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "gmod",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:23:27.416Z",
+  "notes": [
+    "Unzip the mod folder into a new folder inside garrysmod/addons, start Sandbox on any map and play. Robots, loot, the green extraction point and the Gnome and Huntsman monsters appear on their own."
+  ]
+}
