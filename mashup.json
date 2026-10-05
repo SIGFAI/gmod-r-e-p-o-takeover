@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "R.E.P.O. Takeover",
   "tagline": "Bring R.E.P.O. into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Haul the glowing loot into the green extraction point to fill the haul bar and reach the quota.",
+    "Each piece shows its price tag; hitting or shooting it lowers its value and it can break.",
+    "Carry or push loot with the usual Garry's Mod grab and physics tools.",
+    "From the main menu start a Sandbox game on any map; follow the EXTRACTION POINT label to find the zone."
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -231,8 +237,5 @@
     "id": "gmod",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:23:27.416Z",
-  "notes": [
-    "Unzip the mod folder into a new folder inside garrysmod/addons, start Sandbox on any map and play. Robots, loot, the green extraction point and the Gnome and Huntsman monsters appear on their own."
-  ]
+  "built_at": "2026-10-05T15:23:27.416Z"
 }
